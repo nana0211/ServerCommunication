@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import json
+import pandas as pd
 
 app = Flask(__name__)
 
@@ -12,25 +13,19 @@ def get_message():
 def process_json():
     try:
         # Get the JSON data from the request
-        request_data = request.json
-        device_id = request_data['deviceID']
-        json_data = json.loads(request_data['data'])
+        json_data = request.json
 
-        # Process the JSON data
-        # This is where you'd implement your game-specific logic
-        processed_result = process_game_data(json_data)
+        # Convert JSON to DataFrame
+        df = pd.DataFrame([json_data])
 
-        return jsonify({
-            'status': 'success',
-            'message': f'Data processed successfully for device {device_id}',
-            'result': processed_result
-        })
+        # Save DataFrame to CSV
+        csv_filename = 'output.csv'
+        df.to_csv(csv_filename, index=False)
 
+        return jsonify({"message": "Successfully converted to CSV"}), 200
     except Exception as e:
-        return jsonify({
-            'status': 'error',
-            'message': str(e)
-        }), 400
+        return jsonify({"error": str(e)}), 400
+
 
 def process_game_data(data):
     # Implement your game-specific processing logic here
