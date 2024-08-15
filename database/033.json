@@ -1,0 +1,257 @@
+{
+    "MetaData": {
+        "Player_Name": "Player_33",
+        "Player_Age": "29",
+        "Session_ID": "7E12CF8D80D4472E9EFB953C090F4CDC",
+        "Settings_file": "Visit_01_newversion",
+        "Start_Timestamp": "2023-07-06T23:15:21",
+        "End_Timestamp": "2023-01-10T19:59:58",
+        "Scale_Coordinate_System": "1:50"
+    },
+    "Landmarks": {
+        "Coordinates": {
+            "Rockets": {
+                "id": 0,
+                "X": "0",
+                "Y": "0",
+                "Raw": {
+                    "Position": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    },
+                    "Spawn": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    }
+                }
+            },
+            "Arch": {
+                "id": 1,
+                "X": "-3",
+                "Y": "0",
+                "Raw": {
+                    "Position": {
+                        "X": "-216",
+                        "Y": "0",
+                        "Z": "0"
+                    },
+                    "Spawn": {
+                        "X": "-150",
+                        "Y": "0",
+                        "Z": "0"
+                    }
+                }
+            },
+            "Cave": {
+                "id": 2,
+                "X": "-",
+                "Y": "-",
+                "Raw": {
+                    "Position": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    },
+                    "Spawn": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    }
+                }
+            },
+            "Nest": {
+                "id": 3,
+                "X": "-",
+                "Y": "-",
+                "Raw": {
+                    "Position": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    },
+                    "Spawn": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    }
+                }
+            },
+            "Tree": {
+                "id": 4,
+                "X": "0",
+                "Y": "3",
+                "Raw": {
+                    "Position": {
+                        "X": "0",
+                        "Y": "0",
+                        "Z": "216"
+                    },
+                    "Spawn": {
+                        "X": "0",
+                        "Y": "0",
+                        "Z": "150"
+                    }
+                }
+            },
+            "Volcano": {
+                "id": 5,
+                "X": "-",
+                "Y": "-",
+                "Raw": {
+                    "Position": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    },
+                    "Spawn": {
+                        "X": "-",
+                        "Y": "-",
+                        "Z": "-"
+                    }
+                }
+            },
+            "Waterfall": {
+                "id": 6,
+                "X": "3",
+                "Y": "3",
+                "Raw": {
+                    "Position": {
+                        "X": "196.6691",
+                        "Y": "0",
+                        "Z": "196.6691"
+                    },
+                    "Spawn": {
+                        "X": "150",
+                        "Y": "0",
+                        "Z": "150"
+                    }
+                }
+            }
+        }
+    },
+    "Sessions": {
+        "Egocentric": [
+            {
+                "PointingTasks": [
+                    {
+                        "TaskNumber": 0,
+                        "PointingJudgements": [
+                            {
+                                "Absolute_Error": 72.02318945179634
+                            },
+                            {
+                                "Absolute_Error": 72.53023714919941
+                            },
+                            {
+                                "Absolute_Error": 72.03520630049363
+                            }
+                        ]
+                    },
+                    {
+                        "TaskNumber": 1,
+                        "PointingJudgements": [
+                            {
+                                "Absolute_Error": 66.52994817703498
+                            },
+                            {
+                                "Absolute_Error": 70.75397980054035
+                            },
+                            {
+                                "Absolute_Error": 69.09937149828168
+                            }
+                        ]
+                    },
+                    {
+                        "TaskNumber": 2,
+                        "PointingJudgements": [
+                            {
+                                "Absolute_Error": 73.30061244592598
+                            },
+                            {
+                                "Absolute_Error": 72.10214623516065
+                            },
+                            {
+                                "Absolute_Error": 72.19889609847802
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PerspectiveTaking": [
+            {
+                "Trials": [
+                    {
+                        "TotalTime": 101.56655321106865,
+                        "TotalIdleTime": 5.756579631950547,
+                        "FinalAngle": -163.22474650392462,
+                        "CorrectAngle": 78.0179371289355,
+                        "DifferenceAngle": 143.1179628862203,
+                        "ErrorMeasure": 57.24226298083736
+                    },
+                    {
+                        "TotalTime": 100.1209387019116,
+                        "TotalIdleTime": 0.18253701119101295,
+                        "FinalAngle": -146.22074817528716,
+                        "CorrectAngle": 148.78041516926453,
+                        "DifferenceAngle": 130.7218283005529,
+                        "ErrorMeasure": 59.75404310504699
+                    },
+                    {
+                        "TotalTime": 88.43085921341762,
+                        "TotalIdleTime": 7.917073162760072,
+                        "FinalAngle": -30.26336498051387,
+                        "CorrectAngle": 124.12853580991725,
+                        "DifferenceAngle": 112.36499809287879,
+                        "ErrorMeasure": 58.22084122330762
+                    },
+                    {
+                        "TotalTime": 47.61577170754446,
+                        "TotalIdleTime": 7.806499335640642,
+                        "FinalAngle": -51.37453008904248,
+                        "CorrectAngle": 86.63091693468465,
+                        "DifferenceAngle": 174.27681635250616,
+                        "ErrorMeasure": 60.80205187412391
+                    }
+                ]
+            }
+        ]
+    },
+    "Training": {
+        "phase1": {
+            "totalTime": 21.757619542880438
+        },
+        "phase2": {
+            "totalTime": 46.06518096470799
+        },
+        "phase3": {
+            "totalTime": 48.77425999315433
+        },
+        "phase5": {
+            "Trials": [
+                {
+                    "Data": {
+                        "totalTime": 43.29341867618616
+                    }
+                },
+                {
+                    "Data": {
+                        "totalTime": 23.219168316142667
+                    }
+                }
+            ]
+        }
+    },
+    "Equipments": {
+        "device": {
+            "model": "VR_Headset_XYZ",
+            "manufacturer": "VR_Tech_Corp"
+        },
+        "software": {
+            "version": "v2.3.4",
+            "updateDate": "2023-04-04T16:53:53"
+        }
+    }
+}
