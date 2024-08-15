@@ -3,6 +3,11 @@ import json
 
 app = Flask(__name__)
 
+@app.route('/get_message', methods=['GET'])
+def get_message():
+    return "Hello from server"
+
+
 @app.route('/process_json', methods=['POST'])
 def process_json():
     try:
